@@ -217,6 +217,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Persistence\EntityConfigurations\GigConfiguration.cs" />
     <Compile Include="Persistence\Migrations\201511102238077_InitialModel.cs" />
     <Compile Include="Persistence\Migrations\201511102238077_InitialModel.Designer.cs">
       <DependentUpon>201511102238077_InitialModel.cs</DependentUpon>
