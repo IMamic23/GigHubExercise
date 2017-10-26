@@ -150,9 +150,9 @@ namespace GigHub.Controllers
             {
                 var userId = User.Identity.GetUserId();
 
-                viewModel.IsAttending = _unitOfWork.Attendences.GetAttendance(gig.Id, userId);
+                viewModel.IsAttending = _unitOfWork.Attendences.GetAttendance(gig.Id, userId) != null;
 
-                viewModel.IsFollowing = _unitOfWork.Followings.GetFollowing(gig.ArtistId, userId);
+                viewModel.IsFollowing = _unitOfWork.Followings.GetFollowing(gig.ArtistId, userId) != null;
             }
 
             return View("Details", viewModel);

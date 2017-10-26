@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using GigHub.Core.Dtos;
 using GigHub.Core.Models;
 using GigHub.Core.Repositories;
 
@@ -22,10 +23,25 @@ namespace GigHub.Persistence.Repositories
                 .ToList();
         }
 
-        public bool GetAttendance(int gigId, string userId)
+        public Attendance GetAttendance(int gigId, string userId)
         {
             return _context.Attendances
-                .Any(a => a.GigId == gigId && a.AttendeeId == userId);
+                .SingleOrDefault(a => a.GigId == gigId && a.AttendeeId == userId);
+        }
+
+        public bool Any(int gigId, string userId)
+        {
+            return _context.Attendances.Any(a => a.AttendeeId == userId && a.GigId == gigId);
+        }
+
+        public Attendance Add(Attendance attendance)
+        {
+            return _context.Attendances.Add(attendance);
+        }
+
+        public void Delete(Attendance attendance)
+        {
+            _context.Attendances.Remove(attendance);
         }
     }
 }

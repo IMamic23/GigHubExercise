@@ -213,6 +213,7 @@
     <Compile Include="Core\Dtos\GigDto.cs" />
     <Compile Include="Core\Dtos\NotificationDto.cs" />
     <Compile Include="Core\Dtos\UserDto.cs" />
+    <Compile Include="Core\Repositories\IUserNotificationRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -269,6 +270,9 @@
     <Compile Include="Core\Models\NotificationType.cs" />
     <Compile Include="Core\Models\UserNotification.cs" />
     <Compile Include="Core\IUnitOfWork.cs" />
+    <Compile Include="Core\Repositories\INotificationsRepository.cs" />
+    <Compile Include="Persistence\Repositories\NotificationsRepository.cs" />
+    <Compile Include="Persistence\Repositories\UserNotificationRepository.cs" />
     <Compile Include="Persistence\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="Scripts\app\controllers\gigDetailsController.js" />

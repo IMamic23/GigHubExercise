@@ -1,4 +1,6 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
+using GigHub.Core.Models;
 using GigHub.Core.Repositories;
 
 namespace GigHub.Persistence.Repositories
@@ -12,10 +14,18 @@ namespace GigHub.Persistence.Repositories
             _context = context;
         }
 
-        public bool GetFollowing(string artistId, string userId)
+        public Following GetFollowing(string artistId, string userId)
         {
             return _context.Followings
-                .Any(f => f.FolloweeId == artistId && f.FollowerId == userId);
+                .SingleOrDefault(f => f.FolloweeId == artistId && f.FollowerId == userId);
+        }
+
+        public IEnumerable<ApplicationUser> GetArtists(string userId)
+        {
+            return _context.Followings
+                .Where(f => f.FollowerId == userId)
+                .Select(f => f.Followee)
+                .ToList();
         }
     }
 }
