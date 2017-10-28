@@ -76,3 +76,5 @@ E:\GitHub\GigHub\GigHub.Tests\obj\Debug\GigHub.Tests.csprojResolveAssemblyRefere
 E:\GitHub\GigHub\GigHub.Tests\obj\Debug\GigHub.Tests.csproj.CoreCompileInputs.cache
 E:\GitHub\GigHub\GigHub.Tests\obj\Debug\GigHub.Tests.dll
 E:\GitHub\GigHub\GigHub.Tests\obj\Debug\GigHub.Tests.pdb
+E:\GitHub\GigHub\GigHub.Tests\bin\Debug\EntityFramework.SqlServer.dll
+E:\GitHub\GigHub\GigHub.Tests\bin\Debug\EntityFramework.SqlServer.xml

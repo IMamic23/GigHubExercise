@@ -1,7 +1,4 @@
-﻿using System.Security.Claims;
-using System.Security.Principal;
-using System.Web.Http.Results;
-using FluentAssertions;
+﻿using FluentAssertions;
 using GigHub.Controllers.Api;
 using GigHub.Core;
 using GigHub.Core.Models;
@@ -9,17 +6,19 @@ using GigHub.Core.Repositories;
 using GigHub.Tests.Extensions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
+using System.Web.Http.Results;
 
 namespace GigHub.Tests.Controllers.Api
 {
     [TestClass]
     public class GigsControllerTests
     {
-        private readonly GigsController _controller;
-        private readonly Mock<IGigRepository> _mockRepository;
-        private readonly string _userId;
+        private GigsController _controller;
+        private Mock<IGigRepository> _mockRepository;
+        private string _userId;
 
-        public GigsControllerTests()
+        [TestInitialize]
+        public void TestInitialize()
         {
             _mockRepository = new Mock<IGigRepository>();
 
@@ -53,7 +52,7 @@ namespace GigHub.Tests.Controllers.Api
         }
 
         [TestMethod]
-        public void MethodName_UserCancelingAnotherUsersGig_ShouldReturnUnauthorized()
+        public void Cancel_UserCancelingAnotherUsersGig_ShouldReturnUnauthorized()
         {
             var gig = new Gig{ ArtistId = _userId + "-" };
 
@@ -62,6 +61,18 @@ namespace GigHub.Tests.Controllers.Api
             var result = _controller.Cancel(1);
 
             result.Should().BeOfType<UnauthorizedResult>();
+        }
+
+        [TestMethod]
+        public void Cancel_ValidRequest_ShouldReturnOk()
+        {
+            var gig = new Gig { ArtistId = _userId };
+
+            _mockRepository.Setup(r => r.GetGigWithAttendees(1)).Returns(gig);
+
+            var result = _controller.Cancel(1);
+
+            result.Should().BeOfType<OkResult>();
         }
     }
 }
