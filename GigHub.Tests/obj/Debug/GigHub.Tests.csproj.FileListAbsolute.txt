@@ -4,6 +4,8 @@ E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTe
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\GigHub.Tests.dll.config
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\GigHub.Tests.dll
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\GigHub.Tests.pdb
+E:\GitHub\GigHub\GigHub.Tests\bin\Debug\EntityFramework.dll
+E:\GitHub\GigHub\GigHub.Tests\bin\Debug\EntityFramework.SqlServer.dll
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\FluentAssertions.Core.dll
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\FluentAssertions.dll
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\GigHub.dll
@@ -29,7 +31,6 @@ E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Microsoft.Owin.Security.dll
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Owin.dll
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\AutoMapper.dll
-E:\GitHub\GigHub\GigHub.Tests\bin\Debug\EntityFramework.dll
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Ninject.Web.Common.dll
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Ninject.dll
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Ninject.Extensions.Conventions.dll
@@ -39,6 +40,8 @@ E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Castle.Core.dll
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Ninject.Extensions.Factory.dll
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\GigHub.pdb
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\GigHub.dll.config
+E:\GitHub\GigHub\GigHub.Tests\bin\Debug\EntityFramework.xml
+E:\GitHub\GigHub\GigHub.Tests\bin\Debug\EntityFramework.SqlServer.xml
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\FluentAssertions.pdb
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\FluentAssertions.xml
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\FluentAssertions.Core.pdb
@@ -62,8 +65,6 @@ E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Microsoft.Owin.Security.xml
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\AutoMapper.xml
-E:\GitHub\GigHub\GigHub.Tests\bin\Debug\EntityFramework.xml
-E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Ninject.Web.Common.xml
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Ninject.xml
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Ninject.Extensions.Conventions.xml
@@ -75,5 +76,3 @@ E:\GitHub\GigHub\GigHub.Tests\obj\Debug\GigHub.Tests.csprojResolveAssemblyRefere
 E:\GitHub\GigHub\GigHub.Tests\obj\Debug\GigHub.Tests.csproj.CoreCompileInputs.cache
 E:\GitHub\GigHub\GigHub.Tests\obj\Debug\GigHub.Tests.dll
 E:\GitHub\GigHub\GigHub.Tests\obj\Debug\GigHub.Tests.pdb
-E:\GitHub\GigHub\GigHub.Tests\bin\Debug\EntityFramework.SqlServer.dll
-E:\GitHub\GigHub\GigHub.Tests\bin\Debug\EntityFramework.SqlServer.xml
