@@ -236,3 +236,4 @@ E:\GitHub\GigHub\GigHub\bin\WebActivatorEx.dll
 E:\GitHub\GigHub\GigHub\bin\Castle.Core.xml
 E:\GitHub\GigHub\GigHub\bin\Ninject.Extensions.Conventions.xml
 E:\GitHub\GigHub\GigHub\bin\Ninject.Extensions.Factory.xml
+E:\GitHub\GigHub\GigHub\obj\Debug\GigHub.csprojResolveAssemblyReference.cache

@@ -30,7 +30,6 @@ E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Microsoft.Owin.Security.dll
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Owin.dll
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\AutoMapper.dll
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\EntityFramework.dll
-E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Ninject.Web.Common.dll
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Ninject.dll
 E:\GitHub\GigHub\GigHub.Tests\bin\Debug\Ninject.Extensions.Conventions.dll

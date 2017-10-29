@@ -8,9 +8,9 @@ namespace GigHub.Persistence.Repositories
 {
     public class NotificationsRepository : INotificationsRepository
     {
-        private readonly ApplicationDbContext _context;
+        private readonly IApplicationDbContext _context;
 
-        public NotificationsRepository(ApplicationDbContext context)
+        public NotificationsRepository(IApplicationDbContext context)
         {
             _context = context;
         }
